@@ -8,9 +8,9 @@ const Navbar = () => {
   console.log(router);
   return (
     <>
-      {/* <div class="relative bg-white flex justify-center align-bottom"> */}
-      {/* <div class="fixed bottom-0 "> */}
-      <div class="fixed bottom-0 left-0 right-0 z-10 bg-white flex justify-center">
+      {/* <div className="relative bg-white flex justify-center align-bottom"> */}
+      {/* <div className="fixed bottom-0 "> */}
+      <div className="fixed bottom-0 left-0 right-0 z-10 bg-white flex justify-center">
         {/* <div className="overflow-auto whitespace-nowrap divide-x "> */}
         <div className="overflow-x-auto no-scrollbar whitespace-nowrap  justify-center align-bottom font-serif text-lg">
           {/* flex  md:flex divide-x*/}
@@ -23,113 +23,113 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            href="/read/india"
+            href="/Read/india"
             className={` ${
-              router.asPath == "/read/india" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/india" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             India
           </Link>
           <Link
-            href="/read/business"
+            href="/Read/business"
             className={` ${
-              router.asPath == "/read/business" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/business" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Business
           </Link>
           <Link
-            href="/read/politics"
+            href="/Read/politics"
             className={` ${
-              router.asPath == "/read/politics" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/politics" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Politics
           </Link>
           <Link
-            href="/read/sports"
+            href="/Read/sports"
             className={` ${
-              router.asPath == "/read/sports" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/sports" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Sports
           </Link>
           <Link
-            href="/read/technology"
+            href="/Read/technology"
             className={` ${
-              router.asPath == "/read/technology" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/technology" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Technology
           </Link>
           <Link
-            href="/read/startups"
+            href="/Read/startups"
             className={` ${
-              router.asPath == "/read/startups" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/startups" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Startups
           </Link>
           <Link
-            href="/read/entertainment"
+            href="/Read/entertainment"
             className={` ${
-              router.asPath == "/read/entertainment" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/entertainment" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Entertainment
           </Link>
           <Link
-            href="/read/hatke"
+            href="/Read/hatke"
             className={` ${
-              router.asPath == "/read/hatke" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/hatke" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Hatke
           </Link>
           <Link
-            href="/read/international"
+            href="/Read/international"
             className={` ${
-              router.asPath == "/read/international" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/international" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             International
           </Link>
           <Link
-            href="/read/automobile"
+            href="/Read/automobile"
             className={` ${
-              router.asPath == "/read/automobile" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/automobile" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Automobile
           </Link>
           <Link
-            href="/read/science"
+            href="/Read/science"
             className={` ${
-              router.asPath == "/read/science" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/science" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Science
           </Link>
           <Link
-            href="/read/travel"
+            href="/Read/travel"
             className={` ${
-              router.asPath == "/read/travel" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/travel" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Travel
           </Link>
           <Link
-            href="/read/miscellaneous"
+            href="/Read/miscellaneous"
             className={` ${
-              router.asPath == "/read/miscellaneous" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/miscellaneous" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Miscellaneous
           </Link>
           <Link
-            href="/read/fashion"
+            href="/Read/fashion"
             className={` ${
-              router.asPath == "/read/fashion" ? "text-black border-t-2 border-slate-900" : ""
+              router.asPath == "/Read/fashion" ? "text-black border-t-2 border-slate-900" : ""
             } inline-block text-center text-slate-500 items-center justify-center p-3 hover:text-black`}
           >
             Fashion

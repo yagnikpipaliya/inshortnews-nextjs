@@ -31,7 +31,7 @@ export default function Home() {
         <div className="container mx-auto md:px-52 py-8 pb-14">
           {newsData.map((news) => {
             return (
-              <Card title={news.title} image={news.imageUrl} content={news.content} author={news.author} date={news.date} time={news.time} readmore={news.readMoreUrl} />
+              <Card key={news.id} title={news.title} image={news.imageUrl} content={news.content} author={news.author} date={news.date} time={news.time} readmore={news.readMoreUrl} />
             );
           })}
         </div>
@@ -45,11 +45,11 @@ export default function Home() {
         </div>
         {[...Array(3)].map((item, index) => {
           return (
-            <div className="container mx-auto py-8">
+            <div key={index} className="container mx-auto py-8">
               {/* md:px-52 */}
               <div className="md:container">
                 <div className="md:container">
-                  <div class="flex flex-col md:flex-row p-2 mb-4 w-full">
+                  <div className="flex flex-col md:flex-row p-2 mb-4 w-full">
                     <Skeleton className="h-[160px] w-full md:w-1/3 " />
                     {/* w-[250px] */}
                     <div className="space-y-2 md:ps-4 w-full">
