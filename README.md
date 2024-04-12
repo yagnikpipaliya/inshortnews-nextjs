@@ -1,3 +1,10 @@
+# Inshort News Clone
+
+## Demo
+[inshort.webm](https://github.com/yagnikpipaliya/inshortnews-nextjs/assets/97233515/099ba0a1-296b-4c45-9e3e-0d1479cc188c)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
