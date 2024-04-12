@@ -24,7 +24,7 @@ export const getStaticPaths = async () => {
       { params: { read: "miscellaneous" } },
       { params: { read: "fashion" } },
     ],
-    fallback: false,
+    fallback: true,
   };
 };
 
