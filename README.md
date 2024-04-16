@@ -1,9 +1,37 @@
-# Inshort News Clone
+# [Inshort News Clone](https://inshortnews-nextjs.vercel.app/)
 
-## Demo
+## 📃 About Project
+- Crafted a cutting-edge replica of the Inshorts news platform using Next.js and Tailwind CSS, showcasing a curated array of news across 15 distinct categories. You can explore the live deployment at [https://inshortnews-nextjs.vercel.app/](https://inshortnews-nextjs.vercel.app/) .
+
+### News Categories:
+📰 **`Trending`**
+📰 **`India`**
+📰 **`Business`**
+📰 **`Politics`**
+📰 **`Sports`**
+📰 **`Technology`**
+📰 **`Startups`**
+📰 **`Entertainment`**
+📰 **`Hatke`**
+📰 **`International`**
+📰 **`Automobile`**
+📰 **`Science`**
+📰 **`Travel`**
+📰 **`Miscellaneous`**
+📰 **`Fashion`**
+
+
+## 👨‍💻 Outcome
 [inshort.webm](https://github.com/yagnikpipaliya/inshortnews-nextjs/assets/97233515/099ba0a1-296b-4c45-9e3e-0d1479cc188c)
 
+## Tools & Technologies Used
+<img src="https://github.com/yagnikpipaliya/inshortnews-nextjs/assets/97233515/f41ffd2e-2bb8-4076-a7ac-51ecb667f08f" width="75" height="75" /> <img src="https://github.com/yagnikpipaliya/inshortnews-nextjs/assets/97233515/a3abb347-08cc-4469-97b7-f990ae59504f" width="75" height="75" /> 
 
+![183897015-94a058a6-b86e-4e42-a37f-bf92061753e5](https://github.com/yagnikpipaliya/inshortnews-nextjs/assets/97233515/f41ffd2e-2bb8-4076-a7ac-51ecb667f08f)
+
+![254798345-5f8c622c-c217-4649-b0a9-7e0ee24bd704](https://github.com/yagnikpipaliya/inshortnews-nextjs/assets/97233515/a3abb347-08cc-4469-97b7-f990ae59504f)
+
+**`⚠️Note: This project only for educational purpose.`*
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
