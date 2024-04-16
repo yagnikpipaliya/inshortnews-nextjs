@@ -4,7 +4,7 @@
 - Crafted a cutting-edge replica of the Inshorts news platform using Next.js and Tailwind CSS, showcasing a curated array of news across 15 distinct categories. You can explore the live deployment at [https://inshortnews-nextjs.vercel.app/](https://inshortnews-nextjs.vercel.app/) .
 
 ### News Categories:
-📰 **`Trending`**
+📰 **`Trending`** <br/>
 📰 **`India`**
 📰 **`Business`**
 📰 **`Politics`**
