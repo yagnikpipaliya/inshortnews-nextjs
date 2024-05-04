@@ -1,21 +1,21 @@
 import Image from "next/image";
-// import { Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import { Skeleton } from "@/components/ui/skeleton";
 import Card from "@/components/Card";
 import { useEffect, useState } from "react";
 
-// const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
-  const [newsData, setNewsData] = useState([]);
+export default function Home({ newsData }) {
+  // const [newsData, setNewsData] = useState([]);
   const [loadingState, setLoadingState] = useState(false);
 
   useEffect(() => {
-    const fetchNews = async () => {
-      let res = await (await fetch("https://inshortsapi.vercel.app/news?category=all")).json();
-      setNewsData(res.data);
-    };
-    fetchNews();
+    // const fetchNews = async () => {
+    //   let res = await (await fetch("https://inshortsapi.vercel.app/news?category=all")).json();
+    //   setNewsData(res.data);
+    // };
+    // fetchNews();
     setTimeout(() => {
       setLoadingState(true);
     }, 2000);
@@ -29,15 +29,24 @@ export default function Home() {
           {/* <img src="" alt="InShorts" /> */}
         </div>
         <div className="container mx-auto md:px-52 py-8 pb-14">
-          {newsData.map((news) => {
+          {newsData.data.map((news) => {
             return (
-              <Card key={news.id} title={news.title} image={news.imageUrl} content={news.content} author={news.author} date={news.date} time={news.time} readmore={news.readMoreUrl} />
+              <Card
+                key={news.id}
+                title={news.title}
+                image={news.imageUrl}
+                content={news.content}
+                author={news.author}
+                date={news.date}
+                time={news.time}
+                readmore={news.readMoreUrl}
+              />
             );
           })}
         </div>
       </>
     );
-  }else{
+  } else {
     return (
       <>
         <div className="h-20 flex justify-center">
@@ -67,4 +76,10 @@ export default function Home() {
       </>
     );
   }
+}
+
+export async function getServerSideProps() {
+  let newsData = await (await fetch("https://inshortsapi.vercel.app/news?category=all")).json();
+
+  return { props: { newsData } };
 }
